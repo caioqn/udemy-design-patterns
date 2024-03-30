@@ -16,7 +16,7 @@ namespace SOLID___SingleRespPrinciple
         public int AddEntry(string text)
         {
             entries.Add($"{++count}: {text}");
-            return count;
+            return count; // memento
         }
 
         public void RemoveEntry(int index)
@@ -70,7 +70,11 @@ namespace SOLID___SingleRespPrinciple
             var p = new Persistance();
             var filename = @"c:\temp\journal.txt";
             p.SaveToFile(j, filename, true);
-            Process.Start(filename);
+            var psi = new ProcessStartInfo(filename)
+            {
+                UseShellExecute = true,
+            };
+            Process.Start(psi);
         }
     }
 }

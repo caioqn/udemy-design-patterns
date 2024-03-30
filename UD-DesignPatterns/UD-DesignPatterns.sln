@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{EBB0D604-CC86-4F03-BB58-EE06F3BF07CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID - SingleRespPrinciple", "SOLID - SingleRespPrinciple\SOLID - SingleRespPrinciple.csproj", "{59ED633D-F334-4AE9-8856-070752B55A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID - SingleRespPrinciple", "SOLID - SingleRespPrinciple\SOLID - SingleRespPrinciple.csproj", "{59ED633D-F334-4AE9-8856-070752B55A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Open-Closed_Principle", "SOLID_Open-Closed_Principle\SOLID_Open-Closed_Principle.csproj", "{C877E95C-4430-4C37-8FD2-4F32F23CB07E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{59ED633D-F334-4AE9-8856-070752B55A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59ED633D-F334-4AE9-8856-070752B55A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59ED633D-F334-4AE9-8856-070752B55A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
