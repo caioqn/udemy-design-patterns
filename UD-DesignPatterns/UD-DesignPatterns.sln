@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{EBB0D604-CC86-4F03-BB58-EE06F3BF07CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Single_Resp_Principle", "SOLID - SingleRespPrinciple\SOLID_Single_Resp_Principle.csproj", "{59ED633D-F334-4AE9-8856-070752B55A76}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Open-Closed_Principle", "SOLID_Open-Closed_Principle\SOLID_Open-Closed_Principle.csproj", "{C877E95C-4430-4C37-8FD2-4F32F23CB07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Liskov_Substitution_Principle", "SOLID_Liskov_Substitution_Principle\SOLID_Liskov_Substitution_Principle.csproj", "{3E8E1CCB-6417-42EB-B9F2-E0C9E313DD60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Liskov_Substitution_Principle", "SOLID_Liskov_Substitution_Principle\SOLID_Liskov_Substitution_Principle.csproj", "{3E8E1CCB-6417-42EB-B9F2-E0C9E313DD60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Interface_Segregation_Principle", "SOLID_Interface_Segregation_Principle\SOLID_Interface_Segregation_Principle.csproj", "{42FCDA03-096E-425D-930B-C36B0EC1428D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Interface_Segregation_Principle", "SOLID_Interface_Segregation_Principle\SOLID_Interface_Segregation_Principle.csproj", "{42FCDA03-096E-425D-930B-C36B0EC1428D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Dependency_Inversion_Principle", "SOLID_Dependency_Inversion_Principle\SOLID_Dependency_Inversion_Principle.csproj", "{BA3FC4CA-185E-4DD0-9AAB-256770D99D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Dependency_Inversion_Principle", "SOLID_Dependency_Inversion_Principle\SOLID_Dependency_Inversion_Principle.csproj", "{BA3FC4CA-185E-4DD0-9AAB-256770D99D08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Single_Resp_Principle", "SOLID_Single_Resp_Principle\SOLID_Single_Resp_Principle.csproj", "{66B0B3BC-8866-476C-939D-0135785D6693}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		{EBB0D604-CC86-4F03-BB58-EE06F3BF07CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB0D604-CC86-4F03-BB58-EE06F3BF07CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB0D604-CC86-4F03-BB58-EE06F3BF07CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59ED633D-F334-4AE9-8856-070752B55A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59ED633D-F334-4AE9-8856-070752B55A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59ED633D-F334-4AE9-8856-070752B55A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59ED633D-F334-4AE9-8856-070752B55A76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C877E95C-4430-4C37-8FD2-4F32F23CB07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{BA3FC4CA-185E-4DD0-9AAB-256770D99D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3FC4CA-185E-4DD0-9AAB-256770D99D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3FC4CA-185E-4DD0-9AAB-256770D99D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B0B3BC-8866-476C-939D-0135785D6693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B0B3BC-8866-476C-939D-0135785D6693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B0B3BC-8866-476C-939D-0135785D6693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B0B3BC-8866-476C-939D-0135785D6693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
