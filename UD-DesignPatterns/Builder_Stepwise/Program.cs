@@ -1,6 +1,6 @@
 ﻿
 // Stepwise builder pattern with interface segregation principle
-namespace StepwiseBuilder
+namespace Builder_Stepwise
 {
     // Different types of car needs diferent builders
     public enum CarType

@@ -1,7 +1,7 @@
 ﻿using System.Text;
 
 // Builder pattern with fluent interface implementation
-namespace Builder
+namespace Builder_Fluent_Interface
 {
     class HtmlElement
     {
