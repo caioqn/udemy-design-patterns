@@ -2,7 +2,7 @@
 // Stepwise builder pattern with interface segregation principle
 namespace StepwiseBuilder
 {
-
+    // Different types of car needs diferent builders
     public enum CarType
     {
         Sedan,
@@ -32,9 +32,10 @@ namespace StepwiseBuilder
 
     public class CarBuilder
     {
+        // Set as private to not expose the constructor of Impl outside the scope of carbuilder
         private class Impl : ISpecifyCarType, ISpecifyWheelSize, IBuildCar
         {
-            private Car car = new Car();
+            private Car car = new();
 
             public ISpecifyWheelSize OfType(CarType type)
             {
@@ -65,9 +66,9 @@ namespace StepwiseBuilder
     {
         static void Main(string[] args)
         {
-           var car = CarBuilder.Create()
-                .OfType(CarType.Crossover)
-                .WithWheels(18)
+           var car = CarBuilder.Create() // ISpecifyCarType
+                .OfType(CarType.Crossover) // ISpecifyWheelSize
+                .WithWheels(18) // IBuildCar
                 .Build();
         }
     }
