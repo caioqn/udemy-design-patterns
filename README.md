@@ -1,2 +1,2 @@
 # udemy-design-patterns
- Repo com design patterns em C#
+ Repositório com exemplos dos princípios SOLID e de design patterns em .NET e C#
