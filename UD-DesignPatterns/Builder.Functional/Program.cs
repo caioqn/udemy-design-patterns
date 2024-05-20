@@ -1,4 +1,4 @@
-﻿namespace Builder_Functional
+﻿namespace Builder.Functional
 {
     public class Person
     {

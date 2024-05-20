@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace SOLID_Dependency_Inversion_Principle
+namespace SOLID.DependencyInversionPrinciple
 {
     /// <summary>
     /// High level modules should not depend on low level modules; both should depend on abstractions
@@ -15,7 +15,7 @@ namespace SOLID_Dependency_Inversion_Principle
 
     public class Person
     {
-        public string Name;
+        public string? Name;
         // public DateTime DateOfBirth;
         // ETC..
     }

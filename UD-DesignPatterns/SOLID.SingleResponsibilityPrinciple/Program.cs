@@ -2,7 +2,7 @@
 using static System.Console;
 
 
-namespace SOLID_Single_Resp_Principle
+namespace SOLID.SingleResponsibilityPrinciple
 {
     /// <summary>
     /// A class should have one and only one reason to change, meaning that a class should have only one job.

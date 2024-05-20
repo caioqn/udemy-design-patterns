@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace SOLID_Liskov_Substitution_Principle
+namespace SOLID.LiskovSubstitutionPrinciple
 {
     /// <summary>
     /// Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application,

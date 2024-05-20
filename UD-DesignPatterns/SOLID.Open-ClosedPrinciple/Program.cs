@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace SOLID_Open_Closed_Principle
+namespace SOLID.Open-ClosedPrinciple
 {
     /// <summary>
     /// A class should be open for extension but closed for modifications.

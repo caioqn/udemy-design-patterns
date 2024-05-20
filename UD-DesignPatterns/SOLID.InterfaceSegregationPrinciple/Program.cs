@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace SOLID_Interface_Segregation_Principle
+namespace SOLID.InterfaceSegregationPrinciple
 {
     /// <summar>
     /// No code should be forced to depend on methods it does not use

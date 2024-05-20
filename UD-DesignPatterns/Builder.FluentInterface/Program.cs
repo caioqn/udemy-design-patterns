@@ -1,11 +1,11 @@
 ﻿using System.Text;
 
 // Builder pattern with fluent interface implementation
-namespace Builder_Fluent_Interface
+namespace Builder.FluentInterface
 {
     class HtmlElement
     {
-        public string Name, Text;
+        public string? Name, Text;
         public List<HtmlElement> Elements = new List<HtmlElement>();
         private const int indentSize = 2;
 

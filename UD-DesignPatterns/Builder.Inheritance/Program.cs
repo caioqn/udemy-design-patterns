@@ -1,5 +1,5 @@
 ﻿// Fluent builder inheritance with recursive generics
-namespace Builder_Inheritance
+namespace Builder.Inheritance
 {
     public class Person
     {
