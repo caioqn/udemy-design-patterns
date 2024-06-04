@@ -34,7 +34,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.Method", "Factory.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.AsynchronousMethod", "Factory.AsynchronousMethod\Factory.AsynchronousMethod.csproj", "{6BBE7F85-4472-43AB-B995-62C914034C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.BulkReplacement", "Factory.BulkReplacement\Factory.BulkReplacement.csproj", "{F961DC8A-17CD-4A9A-AD81-5898870DFA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.BulkReplacement", "Factory.BulkReplacement\Factory.BulkReplacement.csproj", "{F961DC8A-17CD-4A9A-AD81-5898870DFA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Abstract", "Factory.Abstract\Factory.Abstract.csproj", "{FBBB242D-01E7-4285-9487-BCA3C4E8ED03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,10 @@ Global
 		{F961DC8A-17CD-4A9A-AD81-5898870DFA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F961DC8A-17CD-4A9A-AD81-5898870DFA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F961DC8A-17CD-4A9A-AD81-5898870DFA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBB242D-01E7-4285-9487-BCA3C4E8ED03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBB242D-01E7-4285-9487-BCA3C4E8ED03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBB242D-01E7-4285-9487-BCA3C4E8ED03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBB242D-01E7-4285-9487-BCA3C4E8ED03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
